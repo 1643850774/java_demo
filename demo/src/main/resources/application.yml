@@ -1,0 +1,15 @@
+# 应用名称
+spring:
+  application:
+    name: demo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://101.43.141.143:3306/demo?serverTimeZone=UTC
+    username: root
+    password: Jdwl_123
+
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+
+
