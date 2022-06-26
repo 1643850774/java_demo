@@ -11,7 +11,8 @@ public class HelloWorld {
 
 
     @GetMapping("/hello")
-    public String demo() {
+    public String demo() throws InterruptedException {
+        Thread.sleep(1000);
         return "Hello World!";
     }
 
