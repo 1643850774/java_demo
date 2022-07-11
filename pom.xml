@@ -11,6 +11,8 @@
 
     <modules>
         <module>demo</module>
+        <module>elastic_job</module>
+        <module>kafka</module>
     </modules>
 
     <properties>
