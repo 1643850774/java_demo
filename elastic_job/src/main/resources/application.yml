@@ -1,0 +1,14 @@
+
+elasticjob:
+  reg-center:
+    server-lists: 10.0.30.245:2181
+    namespace: my-job
+  jobs:
+    classed:
+      elastic-job-class: org.apache.shardingsphere.elasticjob.simple.job.SimpleJob
+      cron: 0/5 * * * * ?
+      sharding-total-count: 3
+      overwrite: true
+
+server:
+  port: 8081
